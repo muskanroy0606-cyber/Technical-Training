@@ -1,6 +1,6 @@
 class Solution:
     def combinationSum2(self, candidates, target): 
-        candidates.sort()
+        candidates.sort() 
         result = []  
     
         def backtrack(start, target, path):
